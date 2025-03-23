@@ -1,0 +1,204 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+    color: #333;
+}
+
+.container {
+    width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Banner Styling */
+.banner {
+    background: linear-gradient(135deg, #ff6b6b, #ff8e53); /* Vibrant gradient */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer; /* Makes it interactive */
+    transition: transform 0.3s ease;
+}
+
+.banner-title {
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.banner:hover {
+    transform: scale(1.02); /* Slight scale-up on hover */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #6b48ff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #0d0c0c;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a48eff;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, #6b48ff, #00b4d8);
+    color: #fff;
+    padding: 20px;
+    border-radius: 0 0 10px 10px; /* Adjusted for banner */
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.profile h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.profile h3 {
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact {
+    margin-top: 15px;
+}
+
+.contact p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.contact .icon {
+    margin-right: 8px;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    margin: 30px 0;
+    padding-top: 60px;
+    scroll-margin-top: 70px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #6b48ff;
+    border-bottom: 2px solid #6b48ff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Card Styling */
+.card {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.skill-item {
+    background-color: #6b48ff;
+    color: #0a0a0a;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: background-color 0.3s;
+}
+
+.skill-item:hover {
+    background-color: #5338cc;
+}
+
+/* Projects, Languages, Hobbies */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
